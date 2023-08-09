@@ -1,0 +1,60 @@
+.mensagens-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 300px; /* Ajuste a altura máxima conforme necessário */
+    overflow-y: auto;
+}
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.mensagem-recebida {
+    background-color: #e5e5ea;
+    align-self: flex-start;
+}
+
+.mensagem-resposta {
+    background-color: #dcf8c6;
+    color: #075e54;
+    align-self: flex-end;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+.hora {
+    font-size: 12px;
+    color: #888;
+}
+
+.conteudo {
+    font-size: 16px;
+}
+
+.formulario-mensagem {
+    margin-top: 20px;
+}
+
+.custom-file-label::after {
+    content: "Escolher";
+}
+
+img {
+    max-width: 200px;
+}
